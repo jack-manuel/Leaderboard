@@ -5,7 +5,7 @@ import { theme } from '@/theme';
 
 export const metadata = {
   title: 'Leaderboard',
-  description: 'A Elo Rating Based Leaderboard App',
+  description: 'An Elo Rating Based Leaderboard App',
 };
 
 export default function RootLayout({ children }: { children: any }) {
