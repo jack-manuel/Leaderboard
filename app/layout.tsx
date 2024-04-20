@@ -1,11 +1,11 @@
 import '@mantine/core/styles.css';
 import React from 'react';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
-import { theme } from '../theme';
+import { theme } from '@/theme';
 
 export const metadata = {
-  title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
+  title: 'Leaderboard',
+  description: 'A Elo Rating Based Leaderboard App',
 };
 
 export default function RootLayout({ children }: { children: any }) {
@@ -18,6 +18,7 @@ export default function RootLayout({ children }: { children: any }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
+          <title>Leaderboard</title>
       </head>
       <body>
         <MantineProvider theme={theme}>{children}</MantineProvider>
